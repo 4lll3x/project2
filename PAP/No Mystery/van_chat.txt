@@ -1,0 +1,63 @@
+The van inventory is probably your most interesting gameplay system
+I'd keep it relatively simple because this is a school project.
+
+Instead of simulating weight realistically, have something like:
+
+Player
+Pockets
+
+5 slots
+
+Bag
+6–8 slots
+
+Van
+Large storage
+
+20+ slots
+
+Then items have categories:
+
+Investigation
+
+Camera
+
+Flashlight
+
+Evidence bags
+
+Notebook
+
+UV light
+
+Tape measure
+
+Tools
+
+Lockpick
+
+Screwdriver
+
+Pliers
+
+Crowbar
+
+Electronics
+
+Laptop
+
+Signal detector
+
+Phone
+
+Recorder
+
+And then some objects are large:
+
+Crowbar — 2 slots
+
+Camera — 2 slots
+
+Toolbox — 4 slots
+
+That gives you inventory decisions without requiring an insane inventory system.

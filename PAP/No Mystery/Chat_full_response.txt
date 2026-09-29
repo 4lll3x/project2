@@ -1,0 +1,634 @@
+Yeah, I think there’s **a genuinely strong game concept here**, especially for a school project. The important thing is that you already have the beginnings of a _gameplay loop_, not just a story.
+
+ What I'm hearing is roughly:
+
+ > **Ex-police investigator → notices impossible pattern → superiors force him to stop → leaves police → investigates independently → individual locations/cases slowly reveal that the pattern is real → eventually discovers why the police wanted it buried.**
+
+ And the really interesting part is that **the player isn't initially investigating “the paranormal.”** They're investigating ordinary cases that progressively become harder to explain.
+
+ That gives you a good way to handle the horror without immediately going _"there are demons!"_.
+
+ ## The part I particularly like
+
+ The **car/van as a mobile base** is actually a really good mechanic.
+
+ Instead of:
+
+ > Find item → game magically gives you item → use item
+
+ you can have:
+
+ > Find problem → realize you _might_ have something useful in the van → decide whether going back is worth the time → return → bring equipment → try again.
+
+ That makes the investigation feel more physical.
+
+ For example:
+
+ You enter an abandoned house.
+
+ You discover a locked basement door.
+
+ You don't have a lockpick.
+
+ You remember there might be one in the van.
+
+ You can:
+
+ - Go back to the van and get it.
+- Search the house for another way in.
+- Find a code somewhere.
+- Break something to create another entrance.
+- Potentially discover something completely different while looking for another solution.
+
+ And because returning to the van costs time, **the player has a choice rather than simply being told what to do.**
+
+ That's a very nice system for an investigation game.
+
+---
+
+ # I'd make the investigation the actual gameplay
+
+ One thing I'd be careful about is not making the game:
+
+ > Walk around → click glowing clue → cutscene → next room.
+
+ Your idea about having to actually manipulate the environment is much more interesting.
+
+ For example:
+
+ **You find a photograph.**
+
+ The obvious information:
+
+ > House photographed in 1998.
+
+ But the player notices something strange in the background.
+
+ Maybe there's a symbol.
+
+ They photograph it.
+
+ Later they find the same symbol in another case.
+
+ Then they discover that the symbol is actually partially hidden underneath paint.
+
+ Then they find a notebook containing three numbers.
+
+ Those numbers correspond to:
+
+ > 17 / 04 / 93
+
+ The player has already encountered 17 and 04 somewhere else, but doesn't know what 93 means.
+
+ Eventually they realize they're dates.
+
+ And suddenly:
+
+ **three apparently unrelated cases happened on the same date.**
+
+ That's when the player starts thinking:
+
+ > "Wait..."
+
+ And importantly, **the protagonist doesn't necessarily know either.**
+
+ That makes the player feel like an investigator rather than someone following quest markers.
+
+---
+
+ # Your "evaluation" idea could be really good
+
+ I'd avoid making it something like:
+
+ > Investigation Score: 87%
+
+ because that makes it feel gamey.
+
+ Instead, imagine each investigation ending with a **case report**.
+
+ Something like:
+
+ ### CASE 01 — REDWOOD HOUSE
+
+ **Evidence recovered**
+
+ - Photograph
+- Police report
+- Handwritten note
+- Basement symbol
+
+ **Possible explanations**
+
+ - Trespassing
+- Ritual activity
+- Connection to Case #183
+
+ **Unresolved**
+
+ - Identity of person in photograph
+- Meaning of symbol
+
+ **Investigator's conclusion**
+
+ > "The official report states that the house was abandoned after a burglary. Evidence recovered on site contradicts this."
+
+ Then maybe the game gives you a subtle assessment:
+
+ **Investigation complete.**
+
+ And the next mission changes depending on what you found.
+
+ You don't necessarily need branching storylines. You can have **optional evidence** that changes what the player knows.
+
+ That's much easier to develop.
+
+---
+
+ # I wouldn't make the player "solve" the connection manually
+
+ You actually identified a problem yourself:
+
+ > "the player do it put that doesnt make sense and its hard"
+
+ Exactly.
+
+ You don't want the player to have to personally determine:
+
+ > Case A + Case B + Case C = conspiracy
+
+ because someone can just look up the solution.
+
+ Instead, let the **character's journal gradually organize discovered information**.
+
+ For example:
+
+```
+CASE #014
+└── Missing person
+    ├── Location: Blackwood
+    ├── Date: 17/04/1993
+    └── Symbol: ◇
+
+CASE #031
+└── House fire
+    ├── Location: Red Valley
+    ├── Date: 17/04/1993
+    └── Symbol: ◇
+
+CASE #???
+└── [Unknown]
+    └── ...
+```
+
+ When the player discovers the symbol, the game can automatically add:
+
+ > **Possible connection detected**
+
+ But **the player still had to discover it.**
+
+ That's the sweet spot.
+
+---
+
+ # And I'd make the "No Mystery" thing important
+
+ Honestly, **"No Mystery" is a cool phrase for this game.**
+
+ It could become an actual recurring thing.
+
+ The first time:
+
+ > **CASE CLOSED — NO MYSTERY**
+
+ The player doesn't think much of it.
+
+ Then another case:
+
+ > **NO MYSTERY**
+
+ Then another.
+
+ Eventually the protagonist notices that the same wording appears in completely unrelated police reports.
+
+ And then:
+
+ > **NO MYSTERY**
+
+ isn't just a phrase anymore.
+
+ It's evidence.
+
+ Maybe it's an internal classification.
+
+ Maybe police officers were instructed to use that wording.
+
+ Maybe it's connected to the people suppressing the investigations.
+
+ Maybe it's something even stranger.
+
+ That gives you a mystery **inside the mystery**.
+
+ And you don't have to decide immediately whether it's a cult, government organization, supernatural entity, etc.
+
+ I'd actually recommend **not deciding the exact answer too early.**
+
+ Figure out what the player should _feel_ first:
+
+ > "Someone doesn't want me looking at these cases."
+
+ Then later:
+
+ > "Someone has been manipulating these cases."
+
+ Then:
+
+ > "Why?"
+
+ Then:
+
+ > "Holy shit, what actually happened?"
+
+---
+
+ # The cult idea
+
+ A cult could work, but I'd resist making it the obvious explanation.
+
+ You could deliberately make the player think:
+
+ **Cult.**
+
+ Then find:
+
+ - Ritual documents
+- Symbols
+- Strange recordings
+- Bodies
+- Missing persons
+- Religious objects
+- Repeated dates
+
+ Everything screams cult.
+
+ But then you discover police documents about the same thing from **40 years ago**.
+
+ And then:
+
+ > The "cult" isn't actually the origin.
+
+ Or perhaps the cult itself doesn't understand what it's worshipping.
+
+ That lets you transition from **detective mystery → conspiracy → paranormal horror**.
+
+ Which fits your original idea extremely well.
+
+---
+
+ # The van inventory is probably your most interesting gameplay system
+
+ I'd keep it relatively simple because this is a school project.
+
+ Instead of simulating weight realistically, have something like:
+
+ ### Player
+
+ **Pockets**
+
+ - 5 slots
+
+ ### Bag
+
+ **6–8 slots**
+
+ ### Van
+
+ **Large storage**
+
+ - 20+ slots
+
+ Then items have categories:
+
+ **Investigation**
+
+ - Camera
+- Flashlight
+- Evidence bags
+- Notebook
+- UV light
+- Tape measure
+
+ **Tools**
+
+ - Lockpick
+- Screwdriver
+- Pliers
+- Crowbar
+
+ **Electronics**
+
+ - Laptop
+- Signal detector
+- Phone
+- Recorder
+
+ And then some objects are **large**:
+
+ > Crowbar — 2 slots
+
+ > Camera — 2 slots
+
+ > Toolbox — 4 slots
+
+ That gives you inventory decisions without requiring an insane inventory system.
+
+---
+
+ # Don't make everything a "key item"
+
+ This is important.
+
+ If the player sees:
+
+ > 🔑 **BASEMENT KEY**
+
+ they immediately know:
+
+ > "Ah, basement."
+
+ Instead:
+
+ **Rusty key**
+
+ And the player has to remember:
+
+ > "Wait, didn't I see a locked cabinet upstairs?"
+
+ That feels much more like investigation.
+
+ Likewise:
+
+ > **Old photograph**
+
+ rather than:
+
+ > **PHOTOGRAPH — REQUIRED FOR CASE CONNECTION**
+
+---
+
+ # The computer in the van is a great idea too
+
+ But again, **keep its scope under control**.
+
+ You don't actually need to create Google.
+
+ You can make an in-game fake search engine with a predefined database.
+
+ The player searches:
+
+ > `Blackwood 1993`
+
+ and gets:
+
+```
+BLACKWOOD — LOCAL ARCHIVE
+
+17 April 1993
+Residential fire reported...
+
+18 April 1993
+Police investigation opened...
+
+[ARTICLE UNAVAILABLE]
+```
+
+ Then later they discover:
+
+ > `Blackwood 1993 17 April`
+
+ and something new appears.
+
+ That creates the illusion of a huge information system without you needing to build one.
+
+ Same thing with police databases.
+
+---
+
+ # You could even have the van computer change throughout the game
+
+ At first:
+
+```
+POLICE DATABASE
+LOCAL NEWS
+MAP
+CASE FILES
+NOTES
+```
+
+ Later:
+
+```
+POLICE DATABASE
+LOCAL NEWS
+MAP
+CASE FILES
+NOTES
+████████████████
+```
+
+ Then:
+
+ > **ACCESS DENIED**
+
+ Then the player discovers that their old police credentials still work somewhere.
+
+ Then:
+
+ > **USER: \[REDACTED\]**
+
+ Now you're getting story through the _interface itself_.
+
+---
+
+ # About 2D vs 2.5D vs 3D
+
+ For a **12th-grade computer-science school project**, I would strongly consider **2D or 2.5D**.
+
+ Not because 3D is impossible, but because 3D explodes your workload.
+
+ With 3D you suddenly need:
+
+ - Models
+- Textures
+- Animations
+- Lighting
+- Character controller
+- Camera
+- Collision
+- Environment modeling
+- Doors
+- Physics
+- UI
+- etc.
+
+ Whereas a 2D game can put much more of your effort into the thing that actually makes your game unique:
+
+ **investigation design.**
+
+ And honestly, a deliberately old-looking 2D/2.5D aesthetic could fit this game extremely well.
+
+ You could make it look:
+
+ - dark
+- grainy
+- low-resolution
+- slightly distorted
+- limited color palette
+- old surveillance-camera aesthetic
+- VHS-like effects
+
+ You don't need photorealism.
+
+ In fact, **not showing everything clearly can make the horror better.**
+
+---
+
+ # Games I'd look at
+
+ Since you mentioned **Enigma of Fear** and **Hellsign**, there are some interesting references.
+
+ - Enigma of Fear  — probably the closest reference for your idea mechanically. Investigation, environments, clues, supernatural mystery, documents, puzzles, and 2D/3D presentation.
+- HellSign  — particularly useful for the idea of investigating locations, gathering evidence and dealing with supernatural threats.
+- The Chillas Art games  — useful reference for smaller-scale locations and environmental horror. A lot of their games show how you can create tension without gigantic environments.
+- SIGNALIS  — worth studying for atmosphere, environmental storytelling, inventory limitations, documents and the way information is delivered.
+- Stories Untold  — **very relevant to your computer/terminal idea.** It uses different interfaces and investigation-like interaction to create mystery.
+- Fears to Fathom  — useful for studying relatively contained locations and how mundane environments can become threatening.
+- Return of the Obra Dinn  — not horror in the same way, but **extremely useful for studying investigation as gameplay**. The player has to reconstruct what happened from evidence rather than being spoon-fed the answer.
+- Her Story  — great reference for the idea of searching through fragmented information and gradually understanding a larger mystery.
+- The Painscreek Killings  — another particularly useful reference for environmental investigation without constantly holding the player's hand.
+
+ I think **Enigma of Fear \+ HellSign + Return of the Obra Dinn \+ Stories Untold** is a particularly interesting combination to study for your project.
+
+---
+
+ # And I think you have a possible structure already
+
+ Something like:
+
+ ### Prologue
+
+ The investigator is still a police officer.
+
+ He discovers inconsistencies between several cases.
+
+ His superior tells him:
+
+ > "There is no mystery."
+
+ He keeps investigating.
+
+ He's ordered to stop.
+
+ Eventually he leaves the police.
+
+---
+
+ ### Investigation 01 — Old House
+
+ A case he previously investigated **on paper**, but never visited personally.
+
+ Now he goes there.
+
+ Mostly normal.
+
+ Finds strange evidence.
+
+ Finds connection to another old case.
+
+ **End:** something doesn't quite make sense.
+
+---
+
+ ### Investigation 02 — Abandoned Property
+
+ The connection leads him somewhere else.
+
+ More strange evidence.
+
+ First ritualistic elements.
+
+ Maybe the first genuinely impossible event.
+
+ Player still has a rational explanation available.
+
+---
+
+ ### Investigation 03 — Missing Person
+
+ Now the pattern is becoming undeniable.
+
+ The player discovers that the police already knew about it.
+
+ **Why didn't they tell him?**
+
+---
+
+ ### Investigation 04 — Restricted Location
+
+ The player finds evidence that somebody has been actively monitoring these cases.
+
+ Maybe there's a document with his own name.
+
+---
+
+ ### Investigation 05 — ???
+
+ Now the player realizes:
+
+ **He wasn't the first investigator to notice the pattern.**
+
+---
+
+ And that's when your story can really open up.
+
+---
+
+ ## One thing I'd change from your current idea
+
+ Don't make the goal of every level:
+
+ > **Find the thing that connects this level to the next level.**
+
+ That risks making the game feel like:
+
+ > "Find clue → unlock next mission."
+
+ Instead, make the goal:
+
+ > **Understand what happened here.**
+
+ The connection to the next case should be a **consequence of investigating correctly.**
+
+ So the player enters a house thinking:
+
+ > "I'm investigating a disappearance."
+
+ They leave thinking:
+
+ > "This disappearance wasn't what the police said it was."
+
+ And _then_ they notice:
+
+ > "Wait. This symbol appeared in Case #27."
+
+ **That's much more satisfying.**
+
+---
+
+ And honestly, before you start making anything, I'd want to figure out **three things with you**:
+
+ 1. **What exactly is the underlying mystery?** — cult, entity, conspiracy, experiment, something else, or intentionally ambiguous.
+2. **What does one complete investigation actually look like moment-to-moment?** — because that's the core gameplay loop.
+3. **How big this needs to be for the school project** — because we can design a version that's actually finishable rather than accidentally creating a 20-hour horror game as a student project. 😭
+
+ If you want, we can basically **design the first investigation together from beginning to end**—location, clues, inventory, puzzles, van mechanics, journal, what the player can miss, the final reveal, and what connects it to Investigation #2. That would probably tell you very quickly whether the whole concept actually works as a game.
